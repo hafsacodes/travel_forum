@@ -1,16 +1,44 @@
-# travel_forum
+# Travel Forum App 🌍✈️
 
-Community forum for travelers
+A Flutter-based community forum app where travelers can:
+- Share posts with images, titles, and descriptions.
+- Like and comment on posts.
+- Manage their profile and edit personal details.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Firebase Authentication (Login, Signup, Forgot Password)
+- Firestore Database (Real-time posts and chat)
+- Cloudinary for profile and post image storage
+- Notifications screen
+- Home feed with pull-to-refresh & search
+- Upload screen for creating posts
+- Profile screen with bio, post count, and edit options
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screens
+- Splash Screen
+- Login & Signup
+- Home
+- Upload Post
+- Notifications
+- Profile
+- Edit Profile
+- Forgot Password
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies Used
+- **Flutter** (Dart)
+- **Firebase** (Auth, Firestore, Storage)
+- **Cloudinary** (Image hosting)
+- **Android Studio**
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hafsacodes/travel_forum.git
