@@ -1,7 +1,7 @@
 // lib/splash_screen.dart
 
 import 'package:flutter/material.dart';
-import 'main_screen.dart'; // Replace with your actual next screen
+import 'package:travel_forum/screens/login_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -14,7 +14,7 @@ class SplashScreen extends StatelessWidget {
         children: [
           // Background image
           Image.asset(
-            'assets/splashscreen.jpg', // Your image path
+            'assets/splashscreen.jpg', // image path
             fit: BoxFit.cover,
           ),
 
@@ -55,7 +55,7 @@ class SplashScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (_) => const MainScreen()),
+                        MaterialPageRoute(builder: (_) => const LoginScreen()),
                       );
                     },
                     style: ElevatedButton.styleFrom(

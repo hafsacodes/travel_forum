@@ -12,3 +12,8 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+# Firebase config (keep private)
+android/app/google-services.json
+
+# Flutter dependencies (not required for teacher)
+pubspec.lock
